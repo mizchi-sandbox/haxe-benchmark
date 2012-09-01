@@ -6,38 +6,6 @@ haxelib install hxjava
 haxe build.xml
 ```
 
-## Code
-
-```
-package;
-import Math;
-
-class Main {
-  static function main() {
-    trace("Hello World !");
-  	var arr = [];
-    for(i in 1...100000){
-      var num: Int = cast Math.random() * 1000;
-      arr.push(num);
-    }
-  	var sorted: Array<Int> = qsort(arr);
-    // trace(sorted);
-  }
-
-  static function qsort(array: Array<Int>): Array<Int> {
-  	if(array.length == 0)
-  	  return [];
-    var pivot = array.shift();
-  	var b = [], a = [];
-  	for(i in array)
-  	  if(i < pivot)
-  	  	b.push(i);
-  	  else
-  	  	a.push(i);
-  	return qsort(b).concat([pivot]).concat(qsort(a));
-  }
-}
-```
 
 ## JavaScript (V8)
 
