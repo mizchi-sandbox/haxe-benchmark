@@ -30,6 +30,8 @@ Main.hx:36: lambda sum : 0ms
 cpp/Main-debug  1.07s user 0.01s system 99% cpu 1.079 total
 ```
 
+Maybe something wrong about Date... but slow indeed.
+
 ## Java
 
 ```
