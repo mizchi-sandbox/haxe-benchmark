@@ -1,4 +1,6 @@
-# HaXe Test
+# HaXe CrossPlatform Test
+
+Target is same quicksort created by src/Main.hx
 
 ```
 haxelib install hxcpp
