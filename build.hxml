@@ -1,0 +1,16 @@
+-cp src
+-main Main
+-js js/main.js
+
+# haxelib install hxcpp
+--next 
+-cp src
+-cpp cpp
+-debug
+-main Main
+
+# haxelib install hxjava
+--next 
+-cp src
+-main Main
+-java java
